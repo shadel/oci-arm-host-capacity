@@ -10,9 +10,6 @@ on:
   
   workflow_dispatch:
 
-  schedule:
-    - cron: '*/5 * * * *'
-
 jobs:
   tests:
     runs-on: ubuntu-latest
